@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/userDataLayout_userNameTextView"
+        style="@style/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/userDataLayout_userNameTextView_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_marginVertical="20dp" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/userDataLayout_loginOutChip"
+        style="@style/littleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:text="@string/userDataLayout_loginOutChip_text"
+        app:layout_constraintBottom_toBottomOf="@+id/userDataLayout_userNameTextView"
+        app:layout_constraintStart_toEndOf="@+id/userDataLayout_userNameTextView"
+        app:layout_constraintTop_toTopOf="@+id/userDataLayout_userNameTextView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

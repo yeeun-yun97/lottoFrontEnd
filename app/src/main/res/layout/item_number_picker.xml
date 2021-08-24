@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <NumberPicker
+        android:id="@+id/pickNumberItem_numberPicker5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/pickNumberItem_numberPicker6"
+        app:layout_constraintEnd_toStartOf="@+id/pickNumberItem_numberPicker6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/pickNumberItem_numberPicker4"
+        app:layout_constraintTop_toTopOf="@+id/pickNumberItem_numberPicker6" />
+
+    <NumberPicker
+        android:id="@+id/pickNumberItem_numberPicker4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/pickNumberItem_numberPicker5"
+        app:layout_constraintEnd_toStartOf="@+id/pickNumberItem_numberPicker5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/pickNumberItem_numberPicker3"
+        app:layout_constraintTop_toTopOf="@+id/pickNumberItem_numberPicker5" />
+
+    <NumberPicker
+        android:id="@+id/pickNumberItem_numberPicker3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/pickNumberItem_numberPicker4"
+        app:layout_constraintEnd_toStartOf="@+id/pickNumberItem_numberPicker4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/pickNumberItem_numberPicker2"
+        app:layout_constraintTop_toTopOf="@+id/pickNumberItem_numberPicker4" />
+
+    <NumberPicker
+        android:id="@+id/pickNumberItem_numberPicker2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/pickNumberItem_numberPicker3"
+        app:layout_constraintEnd_toStartOf="@+id/pickNumberItem_numberPicker3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/pickNumberItem_numberPicker1"
+        app:layout_constraintTop_toTopOf="@+id/pickNumberItem_numberPicker3" />
+
+    <NumberPicker
+        android:id="@+id/pickNumberItem_numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/pickNumberItem_numberPicker2"
+        app:layout_constraintEnd_toStartOf="@+id/pickNumberItem_numberPicker2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/pickNumberItem_numberPicker2"
+        tools:layout_constraintHorizontal_chainStyle="packed" />
+
+    <NumberPicker
+        android:id="@+id/pickNumberItem_numberPicker6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/pickNumberItem_numberPicker5" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/pickNumberItem_numberFixer1"
+        style="@style/Widget.MaterialComponents.Chip.Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="고정"
+        app:layout_constraintBottom_toTopOf="@+id/pickNumberItem_numberPicker1"
+        app:layout_constraintEnd_toStartOf="@+id/pickNumberItem_numberPicker2"
+        app:layout_constraintStart_toStartOf="@+id/pickNumberItem_numberPicker1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/pickNumberItem_numberFixer3"
+        style="@style/Widget.MaterialComponents.Chip.Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="고정"
+        app:layout_constraintBottom_toTopOf="@+id/pickNumberItem_numberPicker3"
+        app:layout_constraintEnd_toStartOf="@+id/pickNumberItem_numberPicker4"
+        app:layout_constraintStart_toStartOf="@+id/pickNumberItem_numberPicker3"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/pickNumberItem_numberFixer4"
+        style="@style/Widget.MaterialComponents.Chip.Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="고정"
+        app:layout_constraintBottom_toTopOf="@+id/pickNumberItem_numberPicker4"
+        app:layout_constraintEnd_toStartOf="@+id/pickNumberItem_numberPicker5"
+        app:layout_constraintStart_toStartOf="@+id/pickNumberItem_numberPicker4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/pickNumberItem_numberFixer2"
+        style="@style/Widget.MaterialComponents.Chip.Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="고정"
+        app:layout_constraintBottom_toTopOf="@+id/pickNumberItem_numberPicker2"
+        app:layout_constraintEnd_toStartOf="@+id/pickNumberItem_numberPicker3"
+        app:layout_constraintStart_toStartOf="@+id/pickNumberItem_numberPicker2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/pickNumberItem_numberFixer5"
+        style="@style/Widget.MaterialComponents.Chip.Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="고정"
+        app:layout_constraintBottom_toTopOf="@+id/pickNumberItem_numberPicker5"
+        app:layout_constraintEnd_toEndOf="@+id/pickNumberItem_numberPicker5"
+        app:layout_constraintStart_toStartOf="@+id/pickNumberItem_numberPicker5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.chip.Chip
+        android:id="@+id/pickNumberItem_numberFixer6"
+        style="@style/Widget.MaterialComponents.Chip.Choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="고정"
+        app:layout_constraintBottom_toTopOf="@+id/pickNumberItem_numberPicker6"
+        app:layout_constraintEnd_toEndOf="@+id/pickNumberItem_numberPicker6"
+        app:layout_constraintStart_toEndOf="@+id/pickNumberItem_numberPicker5"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

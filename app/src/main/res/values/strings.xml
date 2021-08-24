@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LottoPredictApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="userDataLayout_userNameTextView_text">로그인 해 주세요</string>
+    <string name="userDataLayout_loginOutChip_text">로그인</string>
+</resources>
